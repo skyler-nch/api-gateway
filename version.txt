@@ -1,0 +1,4 @@
+v0.0.1.0
+- basic struct of api gateway and router up
+- Dockerfile and compose.yml created
+- standard fastapi dependency created

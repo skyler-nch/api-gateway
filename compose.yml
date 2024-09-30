@@ -1,0 +1,12 @@
+services:
+  api-gateway:
+    restart: always
+    image: api-gateway:latest
+    ports:
+      - 5001:5001
+    networks:
+      - proxynet
+  
+networks: 
+  proxynet:
+    name: backend_docker_network
